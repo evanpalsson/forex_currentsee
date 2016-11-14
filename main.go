@@ -45,14 +45,14 @@ func main() {
 	//fmt.Println(tradeInfo)
 
 	// Create and run a price server.
-	priceServer, err := client.NewPriceServer("eur_usd")
-	if err != nil {
-		panic(err)
-	}
-	priceServer.ConnectAndHandle(func(instrument string, tick oanda.PriceTick) {
-		fmt.Println("Received tick:", instrument, tick)
-		priceServer.Stop()
-	})
+	//priceServer, err := client.NewPriceServer("eur_usd")
+	//if err != nil {
+	//	panic(err)
+	//}
+	//priceServer.ConnectAndHandle(func(instrument string, tick oanda.PriceTick) {
+	//	fmt.Println("Received tick:", instrument, tick)
+	//	priceServer.Stop()
+	//})
 
 	// Close the previously opened trade.
 	//tradeCloseInfo, err := client.CloseTrade(tradeInfo.TradeId)
@@ -60,4 +60,11 @@ func main() {
 	//	panic(err)
 	//}
 	//fmt.Println(tradeCloseInfo)
+
+	candles, err := client.PollBidAskCandles("eur_usd", "S5")
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(candles)
 }

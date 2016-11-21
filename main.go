@@ -5,6 +5,7 @@ import (
 "fmt"
 
 "github.com/santegoeds/oanda"
+//"sort"
 )
 
 var (
@@ -61,10 +62,12 @@ func main() {
 	//}
 	//fmt.Println(tradeCloseInfo)
 
-	candles, err := client.PollBidAskCandles("eur_usd", "S5")
+	candles, err := client.PollHighAskCandles("eur_usd", "H4")
 	if err != nil {
 		panic(err)
 	}
 
 	fmt.Println(candles)
+	//fmt.Println(high)
+
 }

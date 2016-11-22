@@ -1,11 +1,10 @@
 package main
 
 import (
-"flag"
-"fmt"
-
-"github.com/santegoeds/oanda"
-//"sort"
+	"flag"
+	"fmt"
+	"github.com/santegoeds/oanda"
+	"reflect"
 )
 
 var (
@@ -67,7 +66,6 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(candles)
-	//fmt.Println(high)
-
+	b := candles.Candles
+	fmt.Println(reflect.TypeOf(b[26]))
 }

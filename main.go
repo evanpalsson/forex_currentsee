@@ -67,5 +67,9 @@ func main() {
 	}
 
 	b := candles.Candles
-	fmt.Println(reflect.TypeOf(b[26]))
+
+
+	fmt.Println(b[1:4])
+	fmt.Println(len(b))
+	fmt.Println(reflect.TypeOf(b[0]))
 }

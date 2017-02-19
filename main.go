@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/santegoeds/oanda"
 	"reflect"
+	"github.com/evanpalsson/forex_currentsee/oanda"
 )
 
 var (
@@ -61,13 +61,12 @@ func main() {
 	//}
 	//fmt.Println(tradeCloseInfo)
 
-	candles, err := client.PollHighAskCandles("eur_usd", "H4")
+	candles, err := client.PollBidAskCandles("eur_usd", "H4")
 	if err != nil {
 		panic(err)
 	}
 
 	b := candles.Candles
-
 
 	fmt.Println(b[1:4])
 	fmt.Println(len(b))

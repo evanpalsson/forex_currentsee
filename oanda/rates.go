@@ -327,9 +327,9 @@ type BidAskCandle struct {
 	Complete bool    `json:"complete"`
 }
 
-func (c BidAskCandle) String() string {
-	return fmt.Sprintf("BidAskCandle{Time: %v, OpenBid: %f, OpenAsk: %f, HighBid: %f, "+
-		"HighAsk: %f, LowBid: %f, LowAsk: %f, CloseBid: %f, CloseAsk: %f, "+
-		"Volume: %d, Complete: %v}", c.Time, c.OpenBid, c.OpenAsk, c.HighBid,
-		c.HighAsk, c.LowBid, c.LowAsk, c.CloseBid, c.CloseAsk, c.Volume, c.Complete)
-}
+//func (c BidAskCandle) String() string {
+//	return fmt.Sprintf("BidAskCandle{Time: %v, OpenBid: %f, OpenAsk: %f, HighBid: %f, "+
+//		"HighAsk: %f, LowBid: %f, LowAsk: %f, CloseBid: %f, CloseAsk: %f, "+
+//		"Volume: %d, Complete: %v}", c.Time, c.OpenBid, c.OpenAsk, c.HighBid,
+//		c.HighAsk, c.LowBid, c.LowAsk, c.CloseBid, c.CloseAsk, c.Volume, c.Complete)
+//}

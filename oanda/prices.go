@@ -38,7 +38,7 @@ type PriceTick struct {
 
 //
 func (p PriceTick) String() string {
-	return fmt.Sprintf("{Time: %v, Bid: %v, Ask: %v, Status: }", p.Time, p.Bid, p.Ask, p.Status)
+	return fmt.Sprintf("{Time: %v, Bid: %v, Ask: %v, Status: %v}", p.Time, p.Bid, p.Ask, p.Status)
 }
 
 // Spread returns the difference between Ask and Bid prices.

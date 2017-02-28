@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e970d7f-903f-44d8-a852-9445c71918da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TODO.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics/window.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics/window_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/example/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debug.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/events.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/events_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fibonacci.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labs.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/labs_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oanda_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/orders.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/orders_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/positions.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/positions_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prices.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/prices_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rates.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rates_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/status/status.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/status/status_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trades.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trades_test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util_test.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__forex_currentsee_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__forex_currentsee_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oanda/fibonacci.go" afterPath="$PROJECT_DIR$/oanda/fibonacci.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oanda/prices.go" afterPath="$PROJECT_DIR$/oanda/prices.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oanda/rates.go" afterPath="$PROJECT_DIR$/oanda/rates.go" />
     </list>
     <ignored path="forex_currentsee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,40 +28,92 @@
     <favorites_list name="forex_currentsee" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rates.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../santegoeds/oanda/rates.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4020">
-              <caret line="274" column="1" lean-forward="false" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oanda/accounts.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5700083">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="rates.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oanda/rates.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1021">
+                  <caret line="329" column="37" lean-forward="true" selection-start-line="329" selection-start-column="37" selection-end-line="329" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fibonacci.go" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/oanda/fibonacci.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#15#27#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#14#116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oanda/client.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="191">
+                  <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="accounts.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oanda/accounts.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="prices.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oanda/prices.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="331">
+                  <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#14#116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +128,10 @@
       <find>BidAskCandle</find>
       <find>bidaskcandle</find>
       <find>sort</find>
+      <find>client</find>
+      <find>accountid</find>
+      <find>Account</find>
+      <find>v1/candl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,6 +144,9 @@
         <option value="$PROJECT_DIR$/prices.go" />
         <option value="$PROJECT_DIR$/fibonacci.go" />
         <option value="$PROJECT_DIR$/../../santegoeds/oanda/rates.go" />
+        <option value="$PROJECT_DIR$/oanda/prices.go" />
+        <option value="$PROJECT_DIR$/oanda/rates.go" />
+        <option value="$PROJECT_DIR$/oanda/fibonacci.go" />
         <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
@@ -128,10 +158,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-60" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -198,6 +226,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -276,15 +305,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-60" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111637704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14940098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21019772" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2433735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -293,7 +323,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -340,41 +369,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trades_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rates.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
-            <element signature="e#14#99#0" expanded="true" />
+            <element signature="e#14#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,20 +659,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oanda/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oanda/accounts.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="45">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oanda/prices.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oanda/rates.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="329" column="37" lean-forward="true" selection-start-line="329" selection-start-column="37" selection-end-line="329" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oanda/fibonacci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="331">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
-            <element signature="e#14#99#0" expanded="true" />
+            <element signature="e#14#116#0" expanded="true" />
           </folding>
         </state>
       </provider>

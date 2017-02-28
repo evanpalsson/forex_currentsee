@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"reflect"
 	"github.com/evanpalsson/forex_currentsee/oanda"
+	"encoding/json"
 )
 
 var (
@@ -61,14 +62,21 @@ func main() {
 	//}
 	//fmt.Println(tradeCloseInfo)
 
-	candles, err := client.PollBidAskCandles("eur_usd", "H4")
+	candles, err := client.HighAskCandles("eur_usd", "H4")
 	if err != nil {
 		panic(err)
 	}
 
 	b := candles.Candles
 
-	fmt.Println(b[1:4])
+	//fmt.Println(b)
+	fmt.Println(b[0:10])
 	fmt.Println(len(b))
 	fmt.Println(reflect.TypeOf(b[0]))
+
+	err = json.NewDecoder(b).Decode(&b)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(b)
 }
